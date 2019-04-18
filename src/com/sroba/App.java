@@ -23,7 +23,7 @@ public class App {
 		//Verificación de que las dos instancias tienen diferente referencia en memoria
 		System.out.println(clientinvestmentOne == clientinvestmentOneCloned);
 		
-		//Verificación de que los parámetros de ambas clases original y clone son iguales
+		//Verificación de que los parámetros de ambas inastancias original y clone son iguales
 		System.out.println(clientinvestmentOne.getInversionType() == clientinvestmentOneCloned.getInversionType());
 		System.out.println(clientinvestmentOne.getAmount() == clientinvestmentOneCloned.getAmount());
 	}
